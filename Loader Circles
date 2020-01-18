@@ -1,0 +1,301 @@
+<html><head> 
+
+  
+
+  
+
+  
+
+<style> 
+
+  
+
+  .loader { 
+
+  
+
+    position: absolute; 
+
+      left: 150px; top: 100px; 
+
+  
+
+    border: 16px solid #f3f3f3; 
+
+  
+
+    border-radius: 50%; 
+
+  
+
+    border-top: 16px solid #3498db; 
+
+  
+
+    width: 120px; 
+
+  
+
+    height: 120px; 
+
+     
+
+  
+
+    -webkit-animation: spin .25s linear infinite; /* Safari */ 
+
+  
+
+    animation: spin .25s linear infinite; 
+
+  
+
+} 
+
+  
+
+  
+
+  
+
+  
+
+  
+
+.loader2 { 
+
+  
+
+    position: absolute; 
+
+  
+
+    left: 100px;  
+
+   
+
+      top: 60px; 
+
+  
+
+    border: 16px solid #f3f3f3; 
+
+  
+
+    border-radius: 50%; 
+
+  
+
+    border-top: 16px solid #3498db; 
+
+  
+
+    width: 300px; 
+
+  
+
+    height: 300px; 
+
+  
+
+    -webkit-animation: spin2 .25s linear infinite; /* Safari */ 
+
+  
+
+    animation: spin2 .25s linear infinite; 
+
+  
+
+} 
+
+  
+
+  
+
+  
+
+.loader3 { 
+
+  
+
+    position: absolute; 
+
+  
+
+    left: 70px; top: 30px; 
+
+  
+
+    border: 16px solid #f3f3f3; 
+
+  
+
+    border-radius: 50%; 
+
+  
+
+    border-top: 16px solid #3498db; 
+
+  
+
+    width: 360px; 
+
+  
+
+    height: 360px; 
+
+  
+
+    -webkit-animation: spin3 .25s linear infinite; /* Safari */ 
+
+  
+
+    animation: spin3 .25s linear infinite; 
+
+  
+
+} 
+
+  
+
+  
+
+  
+
+@-webkit-keyframes spin {  
+
+  
+
+  0% { -webkit-transform: rotate(0deg); }  
+
+  
+
+  100% { -webkit-transform: rotate(360deg); }  
+
+  
+
+}  
+
+  
+
+  
+
+  
+
+@keyframes spin {  
+
+  
+
+  0% { transform: rotate(0deg); }  
+
+  
+
+  100% { transform: rotate(360deg); }  
+
+  
+
+}  
+
+  
+
+@-webkit-keyframes spin2 {  
+
+  
+
+  0% { -webkit-transform: rotate(0deg); }  
+
+  
+
+  100% { -webkit-transform: rotate(360deg); }  
+
+  
+
+}    
+
+  
+
+@keyframes spin2 {  
+
+  
+
+  0% { transform: rotate(0deg); }  
+
+  
+
+  100% { transform: rotate(360deg); }  
+
+  
+
+}  
+
+  
+
+  }  
+
+  
+
+@-webkit-keyframes spin3 {  
+
+  
+
+  0% { -webkit-transform: rotate(0deg); }  
+
+  
+
+  100% { -webkit-transform: rotate(360deg); }  
+
+  
+
+}    
+
+  
+
+@keyframes spin3 {  
+
+  
+
+  0% { transform: rotate(0deg); }  
+
+  
+
+  100% { transform: rotate(360deg); }  
+
+  
+
+}  
+
+  
+
+</style>  
+
+  
+
+</head>  
+
+  
+
+<body>  
+
+  
+
+<h2>How To Create A Loader</h2>  
+
+  
+
+  
+
+  
+
+<div class="loader"></div>  
+
+  
+
+<div class="loader2"></div>  
+
+  
+
+  <div class="loader3"></div> 
+
+  
+
+</body></html> 
